@@ -50,7 +50,7 @@ let configPlugins = [	// plugin配置
 	//   	name: 'webpack-runtime',
 	//   	filename: 'commons/commons/webpack-runtime.[hash].js',
 	// }),
-	new webpack.HotModuleReplacementPlugin(),	//热加载插件
+	// new webpack.HotModuleReplacementPlugin(),	//热加载插件，使用--hot就不需要手动配置
 	/* 抽取出chunk的css */
 	new ExtractTextPlugin('[name]/page.css?[contenthash:8]'),
 ]
